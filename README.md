@@ -11,13 +11,29 @@ Upload file `KaseiCoinCrowdsale.sol` and `KaseiCoin.sol` in https://remix.ethere
 
 ---
 ## Usage
-1. Deploy `KaseiCoinCrowdsaleDeployer contract`
-2. Deploy `KaseiCoin contract`
-3. Deploy `KaseiCoinCrowdsale contract`
+##### 1. Deploy contract `KaseiCoinCrowdsaleDeployer`
+- Select the contract `KaseiCoinCrowdsaleDeployer`
+- Fill in the variables, using a Ganache Address for "wallet"
+- Accept transaction in Metamask
+##### 2. Deploy contract `KaseiCoinCrowdsale`
+- Click button for `kasei_crowdsale_address`
+- Copy Address and paste in "AT_ADDRESS"
+- Click on "AT_ADDRESS"
+##### 3. Deploy contract `KaseiCoin`
+- Click button for `kasei_token_address`
+- Copy Address and paste in "AT_ADDRESS"
+- Click on "AT_ADDRESS"
+
 
 ---
 ## Evaluation Evidence
-
+##### Step 1: Create the KaseiCoin Token Contract
+![01](Execution_Results/01-KaseiCoin-compile.png)
+##### Step 2: Create the KaseiCoin Crowdsale Contract
+![02](Execution_Results/02-KaseiCoinCrowdsale-compile.png)
+##### Step 3: Create the KaseiCoin Deployer Contract
+![03](Execution_Results/03-KaseiCoinCrowdsaleDeployer-compile.png)
+##### Step 4: Deploy the Crowdsale to a Local Blockchain
 
 ---
 ## Contributors

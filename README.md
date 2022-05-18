@@ -34,6 +34,11 @@ Upload file `KaseiCoinCrowdsale.sol` and `KaseiCoin.sol` in https://remix.ethere
 ##### Step 3: Create the KaseiCoin Deployer Contract
 ![03](Execution_Results/03-KaseiCoinCrowdsaleDeployer-compile.png)
 ##### Step 4: Deploy the Crowdsale to a Local Blockchain
+###### Deployment of the contract to a local blockchain with Remix, MetaMask, and Ganache.
+
+###### Using test accounts to buy new tokens from the crowdsale and then checking the balances associated with the test accounts.
+
+###### After purchasing tokens with test accounts, viewing the total supply of minted tokens and the amount of wei that has been raised by the crowdsale.
 
 ---
 ## Contributors

@@ -17,11 +17,11 @@ Upload file `KaseiCoinCrowdsale.sol` and `KaseiCoin.sol` in https://remix.ethere
 - Accept transaction in Metamask
 ##### 2. Deploy contract `KaseiCoinCrowdsale`
 - Click button for `kasei_crowdsale_address`
-- Copy Address and paste in "AT_ADDRESS"
+- Copy Address `kasei_crowdsale_address` and paste in "AT_ADDRESS"
 - Click on "AT_ADDRESS"
 ##### 3. Deploy contract `KaseiCoin`
 - Click button for `kasei_token_address`
-- Copy Address and paste in "AT_ADDRESS"
+- Copy Address `kasei_token_address` and paste in "AT_ADDRESS"
 - Click on "AT_ADDRESS"
 
 

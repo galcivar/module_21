@@ -14,7 +14,12 @@ contract KaseiCoinCrowdsale is Crowdsale, MintedCrowdsale, CappedCrowdsale, Time
     
     // Provide parameters for all of the features of your crowdsale, such as the `rate`, `wallet` for fundraising, and `token`.
     constructor(
-        uint256 rate, address payable wallet, KaseiCoin token, uint goal, uint open, uint close
+        uint256 rate, 
+        address payable wallet, 
+        KaseiCoin token, 
+        uint goal, 
+        uint open,  
+        uint close
     ) public 
         Crowdsale(rate, wallet, token) 
         CappedCrowdsale(goal)
@@ -37,7 +42,7 @@ contract KaseiCoinCrowdsaleDeployer {
        string memory name, string memory symbol, address payable wallet, uint goal
     ) public {
         // Create a new instance of the KaseiCoin contract.
-        KaseiCoin token = new KaseiCoin(name, symbol, 18, 100000000);
+        KaseiCoin token = new KaseiCoin(name, symbol, 18);
         
         // Assign the token contract’s address to the `kasei_token_address` variable.
         kasei_token_address = address(token);

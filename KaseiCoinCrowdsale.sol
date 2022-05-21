@@ -54,7 +54,7 @@ contract KaseiCoinCrowdsaleDeployer {
         kasei_crowdsale_address = address(kasei_crowdsale);
 
         // Set the `KaseiCoinCrowdsale` contract as a minter
-        token.addMinter(kasei_token_address);
+        token.addMinter(kasei_crowdsale_address);
         
         // Have the `KaseiCoinCrowdsaleDeployer` renounce its minter role.
         token.renounceMinter();

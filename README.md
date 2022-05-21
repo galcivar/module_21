@@ -37,6 +37,7 @@ Upload file `KaseiCoinCrowdsale.sol` and `KaseiCoin.sol` in https://remix.ethere
 ###### Deployment of the contract to a local blockchain with Remix, MetaMask, and Ganache.
 ###### Using test accounts to buy new tokens from the crowdsale and then checking the balances associated with the test accounts.
 ###### Video
+https://user-images.githubusercontent.com/1395392/169663295-65100a03-d963-4203-9e68-8e366e9dc494.mov
 
 ###### After purchasing tokens with test accounts, viewing the total supply of minted tokens and the amount of wei that has been raised by the crowdsale.
 ![04](Execution_Results/04-TotalSupply.png)
